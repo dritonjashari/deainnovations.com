@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="cp-tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fdba74" />
+      <stop offset="0.5" stop-color="#f97316" />
+      <stop offset="1" stop-color="#ea580c" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#cp-tile)" />
+  <!-- A post, sent out -->
+  <rect x="14" y="17" width="24" height="6" rx="3" fill="#fff" opacity="0.6" />
+  <rect x="14" y="29" width="24" height="6" rx="3" fill="#fff" opacity="0.8" />
+  <rect x="14" y="41" width="13" height="6" rx="3" fill="#fff" />
+  <path d="M36 46 L50 32 M40 31 H51 V42" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

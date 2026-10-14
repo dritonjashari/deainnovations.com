@@ -4,7 +4,7 @@ The company website for DEA Innovations: plain HTML, CSS and a little vanilla Ja
 
 ```
 index.html        Home: hero, the three services, products, how we work, why us, team preview
-services.html     Software Engineering, AI Automations, Social Media Management
+services.html     Software, Web, Mobile Apps, AI Automations, Social Media, SEO
 products.html     Cleanup.photo, CreatePosts and the inpaint engine, in detail
 team.html         the team (Behar, Driton, Edmond) and About us
 contact.html      contact options and what happens next
@@ -13,8 +13,8 @@ privacy.html      privacy page
 .htaccess         compression, caching, security headers, optional HTTPS redirect
 robots.txt, sitemap.xml
 assets/css/styles.css   all styles; colours and sizes are tokens at the top
-assets/js/main.js       mobile menu, scroll reveals, before/after slider, demo progress
-assets/fonts/           Inter + Sora, self-hosted (no Google requests, GDPR-friendly)
+assets/js/main.js       mobile menu, before/after slider, copy-email button (the site works without it)
+assets/fonts/           Inter, self-hosted (one font, no Google requests, GDPR-friendly)
 assets/img/             logos, favicon, share image (og.png), apple-touch-icon.png
 ```
 
@@ -67,4 +67,4 @@ With XAMPP's Apache running, open http://localhost/deainnovations/. Or just doub
 - **Header and footer** are repeated on every page. To change a menu item or footer link, make the same change in all six pages; search and replace in your editor does it in one go.
 - **Team photos:** the team cards show initials. To use a photo, replace `<span class="avatar" aria-hidden="true">BL</span>` with `<img class="avatar" src="assets/img/behar.jpg" alt="">` (square images work best).
 - **Colours:** the tokens at the top of `styles.css`. `.theme-cleanup` (aqua) and `.theme-posts` (orange) set each product's accent.
-- **After changing CSS or JS,** change `?v=2` to `?v=3` in every page (and `404.html`). Browsers cache those files for a month, and the new number makes them fetch the update.
+- **After changing CSS or JS,** change `?v=7` to `?v=8` in every page (and `404.html`). Browsers cache those files for a month, and the new number makes them fetch the update.
